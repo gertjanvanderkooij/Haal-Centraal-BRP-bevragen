@@ -24,7 +24,7 @@ Enumeratiewaarden bevatten alleen kleine letters en underscores. Geen spaties, g
 In sommige development-omgevingen leveren hoofletters, spaties of speciale tekens in enumeratie-waarden een probleem op met code-genereren. 
 
 ## Gemeentelijke kerngegevens en plusgegevens worden niet opgenomen in de resource.
-In de response worden alleen gegevens opgenomen die in het BRP zitten.
+In de response worden alleen gegevens opgenomen die in het BRP zitten of daarvan kunnen worden afgeleid.
 
 *Ratio*
 Deze gegevens zitten niet in een (voor alle gemeenten geldend) bronsysteem dat voor de bevraging geraadpleegd kan worden. Deze gegevens zijn dus (voorlopig) niet raadpleegbaar. Ook worden deze gegevens niet in alle gemeenten (op dezelfde manier) gebruikt.
@@ -196,7 +196,7 @@ Bijvoorbeeld ingeschreven natuurlijk persoon wordt in de schema's platgeslagen m
 Zolang we niets doen met de abstracte types (subject, persoon, natuurlijk persoon), heeft het geen zin dit mee te nemen in de component schema's.
 
 ## Uitgangspunt voor modellering is de basisregistratie
-Voor persoonsgegevens gebruiken we LO GBA 3.10.
+Voor persoonsgegevens gebruiken we LO GBA 3.12.
 
 *Ratio*
 Het gaat om bevragen bij de bron. De bron voor persoonsgegevens is het GBA. Daarom moet het logisch ontwerp van de GBA worden gebruikt en er geen afwijkende RSGB-modellering zijn van persoonsgegevens.
